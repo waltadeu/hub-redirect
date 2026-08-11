@@ -2,8 +2,8 @@
 // Preencha as credenciais abaixo com seu projeto Supabase (https://supabase.com)
 // PLACEHOLDER: substituir SUPABASE_URL e SUPABASE_ANON_KEY antes de usar em produção.
 window.SUPABASE_CONFIG = {
-  url: 'YOUR_SUPABASE_URL',      // Ex.: https://xxxxx.supabase.co
-  anonKey: 'YOUR_SUPABASE_ANON_KEY'
+  url: 'https://qkcgcxvvjwukheibssje.supabase.co',      // Ex.: https://xxxxx.supabase.co
+  anonKey: 'sb_publishable_a_63AekjYx3o69KbTjpBvg_bx9mzjba'
 };
 
 let _supabase = null;
