@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Entrar | Hub Redirect</title>
+<meta name="description" content="Acesse sua conta Hub Redirect e acompanhe suas encomendas."/>
+<link rel="icon" type="image/svg+xml" href="assets/img/logo.svg"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<div data-header></div>
+<main class="auth-wrap">
+  <div class="auth-card">
+    <h1 data-i18n="log.title">Bem-vindo de volta</h1>
+    <p class="lead" data-i18n="log.lead">Entre para acompanhar suas encomendas.</p>
+    <div id="formMsg" class="form-msg"></div>
+    <form onsubmit="HR.handleLogin(event)" autocomplete="on">
+      <div class="form-group">
+        <label data-i18n="reg.email">E-mail</label>
+        <input class="form-input" name="email" type="email" required autocomplete="email"/>
+      </div>
+      <div class="form-group">
+        <label data-i18n="reg.pass">Senha</label>
+        <input class="form-input" name="password" type="password" required autocomplete="current-password"/>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block btn-lg"><span data-i18n="log.submit">Entrar</span></button>
+    </form>
+    <p class="auth-alt"><span data-i18n="log.new">Ainda não tem conta?</span> <a href="cadastro.html" data-i18n="log.register">Cadastre-se</a></p>
+  </div>
+</main>
+<div data-footer></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/supabase-client.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/main.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"7f7b0fd8732c4326aae4b9d58d5c514a"}' crossorigin="anonymous"></script>
+</body>
+
+</html>

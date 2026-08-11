@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Cadastro | Hub Redirect</title>
+<meta name="description" content="Crie sua conta gratuita na Hub Redirect e receba seu endereço em Portugal para compras europeias."/>
+<link rel="icon" type="image/svg+xml" href="assets/img/logo.svg"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<div data-header></div>
+<main class="auth-wrap">
+  <div class="auth-card">
+    <h1 data-i18n="reg.title">Criar sua conta</h1>
+    <p class="lead" data-i18n="reg.lead">Rápido e gratuito. Comece a receber suas compras da Europa.</p>
+    <div id="formMsg" class="form-msg"></div>
+    <form onsubmit="HR.handleRegister(event)" autocomplete="on">
+      <div class="form-group">
+        <label data-i18n="reg.name">Nome completo</label>
+        <input class="form-input" name="name" type="text" required autocomplete="name"/>
+      </div>
+      <div class="form-group">
+        <label data-i18n="reg.email">E-mail</label>
+        <input class="form-input" name="email" type="email" required autocomplete="email"/>
+      </div>
+      <div class="form-group">
+        <label data-i18n="reg.pass">Senha</label>
+        <input class="form-input" name="password" type="password" required minlength="6" autocomplete="new-password"/>
+        <div class="form-hint" data-i18n="reg.pass.hint">Mínimo de 6 caracteres</div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block btn-lg"><span data-i18n="reg.submit">Criar conta</span></button>
+    </form>
+    <p class="auth-alt"><span data-i18n="reg.have">Já tem conta?</span> <a href="login.html" data-i18n="reg.login">Entrar</a></p>
+  </div>
+</main>
+<div data-footer></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/supabase-client.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>

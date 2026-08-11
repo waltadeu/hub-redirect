@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60" width="260" height="60" role="img" aria-label="Hub Redirect">
+  <defs>
+    <linearGradient id="hrGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B4EA2"/>
+      <stop offset="1" stop-color="#2E7BE8"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(6,6)">
+    <rect x="0" y="0" width="48" height="48" rx="12" fill="url(#hrGrad)"/>
+    <g fill="#fff" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="24" cy="24" r="4" fill="#FF7A00" stroke="none"/>
+      <path d="M24 6 L24 18" fill="none"/>
+      <path d="M24 30 L24 42" fill="none"/>
+      <path d="M6 24 L18 24" fill="none"/>
+      <path d="M30 24 L42 24" fill="none"/>
+      <path d="M11 11 L17 17" fill="none"/>
+      <path d="M31 31 L37 37" fill="none"/>
+      <path d="M11 37 L17 31" fill="none"/>
+      <path d="M31 17 L37 11" fill="none"/>
+      <polygon points="39,20 45,24 39,28" fill="#FF7A00" stroke="none"/>
+    </g>
+  </g>
+  <g transform="translate(68,20)" font-family="'Inter',system-ui,sans-serif">
+    <text x="0" y="14" font-size="20" font-weight="800" fill="#0B4EA2">Hub</text>
+    <text x="46" y="14" font-size="20" font-weight="800" fill="#FF7A00">Redirect</text>
+    <text x="0" y="32" font-size="9" letter-spacing="2" font-weight="600" fill="#6b7280">EUROPA → BRASIL</text>
+  </g>
+</svg>
