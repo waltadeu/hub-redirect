@@ -53,7 +53,7 @@ window.HR_I18N = {
     'feat.4.p': 'Atendimento em português do Brasil, sem barreiras.',
     'cta.title': 'Pronto para começar?',
     'cta.sub': 'Cadastre-se gratuitamente e receba seu endereço em Portugal em minutos.',
-    'cta.btn': 'Criar Conta Grátis',
+    'cta.btn': 'Entrar em Contato',
     'footer.tagline': 'Seu hub de redirecionamento de encomendas da Europa para o Brasil.',
     'footer.company': 'Empresa',
     'footer.services': 'Serviços',
