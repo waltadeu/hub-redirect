@@ -14,7 +14,7 @@ window.HR_FRETE_TABLE = [
   { max: 20,   ctt: 228.50 },
   { max: 30,   ctt: 342.00 }
 ];
-window.HR_HANDLING = { reception: 3, packaging: 5 }; // EUR fees
+window.HR_HANDLING = { reception: 5, packaging: 5 }; // EUR fees
 
 async function buscarCotacao(total) {
     const response = await fetch(
