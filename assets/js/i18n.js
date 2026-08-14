@@ -133,7 +133,7 @@ window.HR_I18N = {
     'hero.title.3': 'hassle-free',
     'hero.sub': 'We give you a real address in Portugal so you can buy from any European store. We receive, check, and reship straight to your home in Brazil.',
     'hero.cta.calc': 'Calculate Shipping',
-    'hero.cta.register': 'Create Free Account',
+    'hero.cta.register': 'Contact Us',
     'hero.badge.num': '48h',
     'hero.badge.lbl': 'Fast check-in',
     'steps.eyebrow': 'How it works',
