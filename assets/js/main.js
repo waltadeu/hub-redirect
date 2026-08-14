@@ -47,8 +47,8 @@
               <h5 data-i18n="footer.services">Serviços</h5>
               <ul>
                 <li><a href="/frete" data-i18n="nav.frete">Calcular Frete</a></li>
-                <li><a href="/cadastro" data-i18n="nav.cadastro">Cadastrar</a></li>
-                <li><a href="/login" data-i18n="nav.login">Entrar</a></li>
+                <!--<li><a href="/cadastro" data-i18n="nav.cadastro">Cadastrar</a></li>
+                <li><a href="/login" data-i18n="nav.login">Entrar</a></li>-->
               </ul>
             </div>
             <div>
