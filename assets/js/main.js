@@ -20,8 +20,8 @@
               <button data-lang="pt-BR" type="button">PT</button>
               <button data-lang="en" type="button">EN</button>
             </div>
-            <a href="login.html" class="btn btn-ghost" data-auth-hide data-i18n="nav.login">Entrar</a>
-            <a href="cadastro.html" class="btn btn-primary" data-auth-hide data-i18n="nav.cadastro">Cadastrar</a>
+            <!--<a href="login.html" class="btn btn-ghost" data-auth-hide data-i18n="nav.login">Entrar</a>-->
+            <!--<a href="cadastro.html" class="btn btn-primary" data-auth-hide data-i18n="nav.cadastro">Cadastrar</a>-->
             <a href="perfil.html" class="btn btn-outline" data-auth-show style="display:none" data-i18n="nav.perfil">Meu Perfil</a>
             <button type="button" class="btn btn-ghost" data-auth-show style="display:none" data-logout data-i18n="nav.logout">Sair</button>
             <button class="mobile-toggle" aria-label="menu" onclick="document.getElementById('navLinks').classList.toggle('open')">
