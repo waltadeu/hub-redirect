@@ -19,7 +19,7 @@
 <meta property="og:locale:alternate" content="en_US"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="theme-color" content="#0B4EA2"/>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com/"/>
@@ -154,6 +154,16 @@
         <p data-i18n="prod.sub2">Algumas marcas que são preferência aqui na Europa.</p>
       </div>
     </div>
+
+    <section class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+    		<ul class="splide__list">
+    			<li class="splide__slide">Slide 01</li>
+    			<li class="splide__slide">Slide 02</li>
+    			<li class="splide__slide">Slide 03</li>
+    		</ul>
+      </div>
+    </section>
   </section>
 
   <!-- FEATURES -->
@@ -205,4 +215,14 @@
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/supabase-client.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+  var splide = new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    perMove: 1,
+  } );
+  
+  splide.mount();
+</script>
 </html>
