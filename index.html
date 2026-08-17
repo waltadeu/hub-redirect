@@ -79,7 +79,7 @@
     </div>
   </section>
 
-  <section class="splideTikTok" aria-label="Marcas">
+  <section class="splide" aria-label="Marcas">
         <div class="splide__track">
       		<ul class="splide__list">
       			<li class="splide__slide"><img src="assets/img/video-jysk.png"/></li>
@@ -262,28 +262,5 @@
     }
   } );
   splide.mount();
-</script>
-<script>
-  var splideTikTok = new Splide( '.splideTikTok', {
-    type   : 'loop',
-    autoplay: 'pause',
-    perPage: 4,
-    perMove: 1,
-    padding: '50px',
-    gap: '20px',
-    breakpoints: {
-        768: {
-            perPage: 1,
-            gap: '10px',
-        },
-
-        480: {
-            perPage: 1,
-            gap: '5px',
-        }
-    }
-  } );
-  
-  splideTikTok.mount();
 </script>
 </html>
