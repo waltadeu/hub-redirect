@@ -241,6 +241,8 @@ section { padding: 80px 0; }
 
 .splide .splide__track ul li {
   text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .splide .splide__track ul li img {
