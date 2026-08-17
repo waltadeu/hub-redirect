@@ -245,6 +245,8 @@ section { padding: 80px 0; }
   overflow: hidden;
 }
 
+.splide .splide__track ul li:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+
 .splide .splide__track ul li img {
   margin: 0 auto;
 }
