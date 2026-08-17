@@ -79,6 +79,48 @@
     </div>
   </section>
 
+  <!-- CARROSSEL TIKTOK -->
+  <section>
+    <div style="max-width: 1200px!important; margin: 0 auto;">
+      <section class="splideTikTok" aria-label="Marcas">
+        <div class="splide__track">
+      		<ul class="splide__list">
+            <li class="splide__slide">
+              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@caixagringa.importados/video/7614597489408085256" data-video-id="7614597489408085256" style="max-width: 605px;min-width: 325px;" > 
+                <section> 
+                  <a target="_blank" title="@caixagringa.importados" href="https://www.tiktok.com/@caixagringa.importados?refer=embed">@caixagringa.importados</a> Enviamos para o Brasil! Participe do nosso grupo de compras no Whpp <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> 
+                  <a title="importados" target="_blank" href="https://www.tiktok.com/tag/importados?refer=embed">#importados</a> 
+                  <a title="brasil🇧🇷" target="_blank" href="https://www.tiktok.com/tag/brasil%F0%9F%87%A7%F0%9F%87%B7?refer=embed">#brasil🇧🇷</a> 
+                  <a target="_blank" title="♬ som original - Caixa Gringa Importados" href="https://www.tiktok.com/music/som-original-7614597541418830612?refer=embed">♬ som original - Caixa Gringa Importados</a> 
+                </section> 
+              </blockquote>
+            </li>
+            <li class="splide__slide">
+              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@caixagringa.importados/video/7614597489408085256" data-video-id="7614597489408085256" style="max-width: 605px;min-width: 325px;" > 
+                <section> 
+                  <a target="_blank" title="@caixagringa.importados" href="https://www.tiktok.com/@caixagringa.importados?refer=embed">@caixagringa.importados</a> Enviamos para o Brasil! Participe do nosso grupo de compras no Whpp <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> 
+                  <a title="importados" target="_blank" href="https://www.tiktok.com/tag/importados?refer=embed">#importados</a> 
+                  <a title="brasil🇧🇷" target="_blank" href="https://www.tiktok.com/tag/brasil%F0%9F%87%A7%F0%9F%87%B7?refer=embed">#brasil🇧🇷</a> 
+                  <a target="_blank" title="♬ som original - Caixa Gringa Importados" href="https://www.tiktok.com/music/som-original-7614597541418830612?refer=embed">♬ som original - Caixa Gringa Importados</a> 
+                </section> 
+              </blockquote>
+            </li>
+            <li class="splide__slide">
+              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@caixagringa.importados/video/7614597489408085256" data-video-id="7614597489408085256" style="max-width: 605px;min-width: 325px;" > 
+                <section> 
+                  <a target="_blank" title="@caixagringa.importados" href="https://www.tiktok.com/@caixagringa.importados?refer=embed">@caixagringa.importados</a> Enviamos para o Brasil! Participe do nosso grupo de compras no Whpp <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> 
+                  <a title="importados" target="_blank" href="https://www.tiktok.com/tag/importados?refer=embed">#importados</a> 
+                  <a title="brasil🇧🇷" target="_blank" href="https://www.tiktok.com/tag/brasil%F0%9F%87%A7%F0%9F%87%B7?refer=embed">#brasil🇧🇷</a> 
+                  <a target="_blank" title="♬ som original - Caixa Gringa Importados" href="https://www.tiktok.com/music/som-original-7614597541418830612?refer=embed">♬ som original - Caixa Gringa Importados</a> 
+                </section> 
+              </blockquote>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </section>
+
   <!-- COMO FUNCIONA -->
   <section>
     <div class="container">
@@ -247,7 +289,28 @@
         }
     }
   } );
+
+  var splide = new Splide( '.splideTikTok', {
+    type   : 'loop',
+    autoplay: 'pause',
+    perPage: 4,
+    perMove: 1,
+    padding: '50px',
+    gap: '20px',
+    breakpoints: {
+        768: {
+            perPage: 1,
+            gap: '10px',
+        },
+
+        480: {
+            perPage: 1,
+            gap: '5px',
+        }
+    }
+  } );
   
   splide.mount();
 </script>
+<script async src="https://www.tiktok.com/embed.js"></script>
 </html>
