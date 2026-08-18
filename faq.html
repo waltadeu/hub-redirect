@@ -21,61 +21,52 @@
       <p data-i18n="faq.lead">Tire todas as suas dúvidas, e compre com segurança.</p>
     </div>
 
-    <div class="frete-grid">
-      <div class="calc-card">
-        <h2 data-i18n="fr.calc">Calcular</h2>
-        <p class="lead" data-i18n="fr.disclaimer">Valores aproximados. O valor final pode variar conforme peso final, dimensões e serviço dos CTT no dia do envio.</p>
-        <form onsubmit="HR.calcFrete(event)">
-          <div class="form-group">
-            <label data-i18n="fr.weight">Peso (kg)</label>
-            <input name="weight" class="form-input" type="number" step="0.1" min="0.1" value="1" required/>
-          </div>
-          <div class="dim-row">
-            <div class="form-group">
-              <label data-i18n="fr.length">Comprimento (cm)</label>
-              <input name="length" class="form-input" type="number" step="1" min="1" value="30" required/>
-            </div>
-            <div class="form-group">
-              <label data-i18n="fr.width">Largura (cm)</label>
-              <input name="width" class="form-input" type="number" step="1" min="1" value="20" required/>
-            </div>
-            <div class="form-group">
-              <label data-i18n="fr.height">Altura (cm)</label>
-              <input name="height" class="form-input" type="number" step="1" min="1" value="15" required/>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-primary btn-block btn-lg">
-            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 9h8M8 13h5M8 17h8"/></svg>
-            <span data-i18n="fr.calc">Calcular</span>
-          </button>
-        </form>
-        <div id="resultBox" class="result-box" style="display:none">
-          <div class="result-line"><span data-i18n="fr.res.actual">Peso real</span><strong id="resActual">—</strong></div>
-          <div class="result-line"><span data-i18n="fr.res.vol">Peso volumétrico</span><strong id="resVol">—</strong></div>
-          <div class="result-line"><span data-i18n="fr.res.billable">Peso considerado</span><strong id="resBillable">—</strong></div>
-          <div class="result-line"><span data-i18n="fr.res.ctt">Frete CTT</span><strong id="resCtt">—</strong></div>
-          <div class="result-line"><span data-i18n="fr.res.handling">Recepção + embalagem</span><strong id="resHandling">—</strong></div>
-          <div class="result-line total"><span data-i18n="fr.res.total">Total estimado</span><strong id="resTotal" class="result-total">—</strong></div>
-          <div class="result-line total"><span data-i18n="fr.res.totalReal">Total estimado(Real)</span><strong id="resTotalReal" class="result-total">—</strong></div>
-        </div>
-      </div>
+    <div>
+      <section class="faq">
+    <h2>Perguntas frequentes</h2>
 
-      <div class="table-card">
-        <h2 data-i18n="fr.table.title">Tabela de preços CTT</h2>
-        <p class="lead" data-i18n="fr.table.lead">Valores aproximados por faixa de peso.</p>
-        <div style="overflow-x:auto">
-          <table class="price-table">
-            <thead>
-              <tr>
-                <th data-i18n="fr.col.weight">Faixa de peso</th>
-                <th data-i18n="fr.col.ctt">CTT (€)</th>
-                <th data-i18n="fr.col.total">Total estimado (€)</th>
-              </tr>
-            </thead>
-            <tbody id="freteTableBody"></tbody>
-          </table>
+    <div class="faq-item">
+        <button class="faq-question">
+            Como faço para criar uma conta?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Para criar uma conta, clique no botão "Cadastrar"
+                e preencha seus dados.
+            </p>
         </div>
-      </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Posso alterar meus dados depois?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Sim. Você pode alterar seus dados através da área
+                de configurações da sua conta.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Como posso entrar em contato?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Você pode entrar em contato conosco através do
+                formulário de contato ou pelo nosso suporte.
+            </p>
+        </div>
+    </div>
+</section>
     </div>
   </div>
 </main>
