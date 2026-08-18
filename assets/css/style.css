@@ -419,4 +419,5 @@ section { padding: 80px 0; }
   section { padding: 56px 0; }
   .hero { padding: 56px 0 72px; }
   .auth-card { padding: 28px 24px; }
+  .result-line.total, .result-line.total span {diaplay: block;)
 }
