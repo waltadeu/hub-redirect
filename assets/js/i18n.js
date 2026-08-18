@@ -243,7 +243,7 @@ window.HR_I18N = {
     'pf.change.pass': 'Change password',
     'pf.saved': 'Saved successfully!',
     'faq.subtitle': 'FAQ',
-    'faq.title': 'Frequently Asked Questions'
+    'faq.title': 'Frequently Asked Questions',
     'faq.lead': 'Get all your questions answered, and buy with confidence.',
   }
 };
