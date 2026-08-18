@@ -196,9 +196,11 @@ section { padding: 80px 0; }
 
 /*FAQ*/
 .faq {
-    max-width: 800px;
-    margin: 50px auto;
-    font-family: Arial, sans-serif;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: var(--shadow-sm);
 }
 
 .faq h2 {
