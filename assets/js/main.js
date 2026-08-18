@@ -13,6 +13,7 @@
             <a href="index.html" data-i18n="nav.home">Início</a>
             <a href="frete.html" data-i18n="nav.frete">Calcular Frete</a>
             <!--<a href="contato.html" data-i18n="nav.contato">Contato</a>-->
+            <a href="faq.html" data-i18n="footer.faq">FAQ</a><
             <a href="https://api.whatsapp.com/send?phone=5511992585335" target="_blank" data-i18n="nav.contato">Contato</a>
           </nav>
           <div class="nav-actions">
@@ -56,7 +57,7 @@
               <ul>
                 <!--<li><a href="/contato" data-i18n="footer.contact">Contato</a></li>-->
                 <li><a href="https://api.whatsapp.com/send?phone=5511992585335" target="_blank" data-i18n="footer.contact">Contato</a></li>
-                <li><a href="/#faq" data-i18n="footer.faq">FAQ</a></li>
+                <li><a href="faq.html" data-i18n="footer.faq">FAQ</a></li>
               </ul>
             </div>
             <div>
