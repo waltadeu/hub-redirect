@@ -121,6 +121,10 @@ window.HR_I18N = {
     'pf.new.pass': 'Nova senha',
     'pf.change.pass': 'Alterar senha',
     'pf.saved': 'Alterado com sucesso!',
+    //FAQ
+    'faq.subtitle': 'FAQ',
+    'faq.title': 'Perguntas Frequentes',
+    'faq.sub': 'Tire todas as suas dúvidas, e compre com segurança.'
   },
   'en': {
     'nav.home': 'Home',
@@ -239,6 +243,10 @@ window.HR_I18N = {
     'pf.new.pass': 'New password',
     'pf.change.pass': 'Change password',
     'pf.saved': 'Saved successfully!',
+    //FAQ
+    'faq.subtitle': 'FAQ',
+    'faq.title': 'Frequently Asked Questions'
+    'faq.sub': 'Get all your questions answered, and buy with confidence.'
   }
 };
 
