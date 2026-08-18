@@ -123,7 +123,7 @@ window.HR_I18N = {
     'pf.saved': 'Alterado com sucesso!',
     'faq.subtitle': 'FAQ',
     'faq.title': 'Perguntas Frequentes',
-    'faq.sub': 'Tire todas as suas dúvidas, e compre com segurança.',
+    'faq.lead': 'Tire todas as suas dúvidas, e compre com segurança.',
   },
   'en': {
     'nav.home': 'Home',
@@ -244,7 +244,7 @@ window.HR_I18N = {
     'pf.saved': 'Saved successfully!',
     'faq.subtitle': 'FAQ',
     'faq.title': 'Frequently Asked Questions'
-    'faq.sub': 'Get all your questions answered, and buy with confidence.',
+    'faq.lead': 'Get all your questions answered, and buy with confidence.',
   }
 };
 
