@@ -62,7 +62,7 @@ window.HR_I18N = {
     'footer.services': 'Serviços',
     'footer.legal': 'Legal',
     'footer.contact': 'Contato',
-    'footer.faq': 'Perguntas frequentes',
+    'footer.faq': 'Perguntas Frequentes',
     'footer.privacy': 'Privacidade',
     'footer.terms': 'Termos',
     'footer.rights': 'Todos os direitos reservados.',
