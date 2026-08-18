@@ -107,6 +107,26 @@
     });
   }
 
+  function faqAccordion() {
+    const questions = document.querySelectorAll(".faq-question");
+
+    questions.forEach(question => {
+        question.addEventListener("click", () => {
+    
+            const item = question.parentElement;
+    
+            document.querySelectorAll(".faq-item").forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove("active");
+                }
+            });
+    
+            item.classList.toggle("active");
+        });
+    });
+
+    faqAccordion();
+
   document.addEventListener('DOMContentLoaded', async () => {
     injectHeader();
     injectFooter();
