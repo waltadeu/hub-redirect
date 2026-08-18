@@ -124,6 +124,7 @@
             item.classList.toggle("active");
         });
     });
+  }
 
     faqAccordion();
 
